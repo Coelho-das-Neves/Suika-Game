@@ -17,7 +17,7 @@ public class FruitScript : MonoBehaviour
     public GameObject nextFruitPrefab;
     public FruitType fruitType;
     private bool merged = false;
-
+    public int score;
 
     private Rigidbody2D rig;
 

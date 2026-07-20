@@ -23,6 +23,6 @@ public class CrawCrontroller : MonoBehaviour
 
         Debug.Log(horizontal);
 
-        transform.Translate(Vector2.right * horizontal * speed * Time.deltaTime);
+        transform.Translate(Mathf.Clamp(horizontal, -clampX, clampX) * speed * Time.deltaTime, 0f, 0f);
     }
 }
