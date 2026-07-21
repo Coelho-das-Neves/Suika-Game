@@ -314,8 +314,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FruitSpot: {fileID: 431371743}
+  fruitPrefabs:
+  - {fileID: 1676129425314270345, guid: ef574294145ca064e94a42877d521281, type: 3}
+  - {fileID: 1548517758235416136, guid: da44360f80936694788abcc17dad8997, type: 3}
+  - {fileID: 1915145257474742911, guid: d935b779fa3d4a046b7d99241cf37a34, type: 3}
+  - {fileID: 4093700335049690233, guid: 5ffe4f79ce5e506469b98e4433b33515, type: 3}
   speed: 5
-  clampX: 2
+  clampX: 1.5
 --- !u!50 &352610953
 Rigidbody2D:
   serializedVersion: 4
@@ -324,7 +329,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352610950}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
